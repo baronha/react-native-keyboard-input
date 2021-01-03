@@ -44,6 +44,7 @@ ios/info.plist
 
 Carthage/Build
 /ios/Pods/
+ios/Podfile.lock
 
 # fastlane
 #

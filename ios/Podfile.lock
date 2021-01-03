@@ -217,11 +217,13 @@ PODS:
     - React-cxxreact (= 0.61.4)
     - React-jsi (= 0.61.4)
     - ReactCommon/jscallinvoker (= 0.61.4)
-  - ReactNativeKeyboardInput (6.0.1):
+  - ReactNativeAutogrowTextinput (5.4.0):
     - React
-  - ReactNativeKeyboardTrackingView (5.6.1):
+  - ReactNativeKeyboardInput (6.0.2):
     - React
-  - ReactNativeNavigation (3.5.1):
+  - ReactNativeKeyboardTrackingView (5.7.0):
+    - React
+  - ReactNativeNavigation (3.7.0):
     - React
   - Yoga (1.14.0)
 
@@ -253,6 +255,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - ReactNativeAutogrowTextinput (from `../node_modules/react-native-autogrow-textinput`)
   - ReactNativeKeyboardInput (from `../ReactNativeKeyboardInput.podspec`)
   - ReactNativeKeyboardTrackingView (from `../node_modules/react-native-keyboard-tracking-view`)
   - ReactNativeNavigation (from `../node_modules/react-native-navigation`)
@@ -311,6 +314,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/Libraries/Vibration"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  ReactNativeAutogrowTextinput:
+    :path: "../node_modules/react-native-autogrow-textinput"
   ReactNativeKeyboardInput:
     :path: "../ReactNativeKeyboardInput.podspec"
   ReactNativeKeyboardTrackingView:
@@ -346,11 +351,12 @@ SPEC CHECKSUMS:
   React-RCTText: 21934e0a51d522abcd0a275407e80af45d6fd9ec
   React-RCTVibration: 0f76400ee3cec6edb9c125da49fed279340d145a
   ReactCommon: a6a294e7028ed67b926d29551aa9394fd989c24c
-  ReactNativeKeyboardInput: 266ba27a2e9921f5bdc0b4cc30289b2a2f46b157
-  ReactNativeKeyboardTrackingView: a240a6a0dba852bb107109a7ec7e98b884055977
-  ReactNativeNavigation: 3fad99b3843e8840affd70577aaa30bf14b272d5
+  ReactNativeAutogrowTextinput: 571f3260e200d91ea22fab160452f26d2fd5d55b
+  ReactNativeKeyboardInput: 39fd96d68b71562a722e627a6c58741c8094e103
+  ReactNativeKeyboardTrackingView: 02137fac3b2ebd330d74fa54ead48b14750a2306
+  ReactNativeNavigation: bed6f504aa1a4dadd151503bf99d0ef96d06847f
   Yoga: ba3d99dbee6c15ea6bbe3783d1f0cb1ffb79af0f
 
 PODFILE CHECKSUM: db72c512534d095b2d49d5dbe372d7ea041b7645
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0
